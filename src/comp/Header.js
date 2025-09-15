@@ -3,6 +3,7 @@
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import { BsFillMoonStarsFill, BsFillSunFill } from 'react-icons/bs';
 import Search from './Search';
+import { Link } from 'react-router-dom';
 
 const Header = ({darkTheme, setDarkTheme}) => {
   return (
