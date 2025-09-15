@@ -1,5 +1,5 @@
 
-import { Routes, Navigate, Route  } from 'react-router-dom'
+import { Routes, Route  } from 'react-router-dom'
 
 import Result from './Result';
 import Error from './Error';

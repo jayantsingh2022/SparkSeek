@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import { useLocation } from 'react-router-dom'
+import { useEffect, useState } from 'react'
 import { useResultContext } from './ResultProvider'
 
 import { ThreeDots } from  'react-loader-spinner'
@@ -9,7 +8,7 @@ import Error from './Error'
 
 const Result = () => {
   const {result, loading, getResults, searchTerm}=useResultContext();
-  const location= useLocation(); 
+
   
   const [it,setIt]= useState(false);
 
