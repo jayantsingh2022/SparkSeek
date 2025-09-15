@@ -8,12 +8,11 @@ import  { BrowserRouter as Router}  from 'react-router-dom'
 import { ResultProvider } from './comp/ResultProvider';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <ResultProvider>
   <Router>
-    <App />
-
-    </Router>
+    <ResultProvider>
+      <App />
     </ResultProvider>
+  </Router>
 );
 
 // If you want to start measuring performance in your app, pass a function

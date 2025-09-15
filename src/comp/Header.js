@@ -12,7 +12,7 @@ const Header = ({darkTheme, setDarkTheme}) => {
    
         
   <Link to="/">
-    <p className='text-3xl flex items-center  font-bold text-white bg-gray-900 px-3 gap-2 rounded dark:bg-gray-300 dark:text-gray-900 max-[600px]:w-20 max-[600px]:text-xl max-[600px]:px-1'> XP <SearchRoundedIcon color='danger' sx={{width:"30px " ,height: "30px"}} /></p>
+    <p className='text-3xl flex items-center  font-bold text-white bg-gray-900 px-3 gap-2 rounded dark:bg-gray-300 dark:text-gray-900 max-[600px]:w-20 max-[600px]:text-xl max-[600px]:px-1'> SS <SearchRoundedIcon color='danger' sx={{width:"30px " ,height: "30px"}} /></p>
   </Link>
     <Search/>
    <button onClick={()=>setDarkTheme(!darkTheme)} className='dark:bg-gray-900 dark:text-gray-100 bg-white border rounded-full px-4 py-1 hover:shadow-lg bg-gray-100 border-2 dark:border-blue-500   border-blue-900   text-gray-900 ' >

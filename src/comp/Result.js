@@ -32,8 +32,8 @@ const Result = () => {
 
       !searchTerm && 
       <div className='flex flex-col flex-wrap justify-center   items-center text-4xl max-[600px]:text-3xl  gap-5'>
-<h1 className='text-center  text-4xl' >Welcome to ExploreX. </h1>
-<h2 className='text-xl mt-4 px-20 max-[600px]:px-5 max-[600px]:text-sm text-center'>ExploreX is your faithful companion on this exciting journey. So, buckle up and let your imagination run wild as you embark on a seamless and enriching search experience with ExploreX!
+<h1 className='text-center  text-4xl' >Welcome to SparkSeek </h1>
+<h2 className='text-xl mt-4 px-20 max-[600px]:px-5 max-[600px]:text-sm text-center'>SparkSeek is your faithful companion on this exciting journey. So, buckle up and let your imagination run wild as you embark on a seamless and enriching search experience with SparkSeek!
 
 
 
