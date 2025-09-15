@@ -1,6 +1,6 @@
-import React from 'react'
+
 import { Routes, Navigate, Route  } from 'react-router-dom'
-import Search from './Search';
+
 import Result from './Result';
 import Error from './Error';
 

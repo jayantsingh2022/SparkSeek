@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useDebounce } from 'use-debounce';
 import { useResultContext } from './ResultProvider'
-import { FcSearch } from 'react-icons/fc';
+
 import { ImCross} from 'react-icons/im';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import { InputBase } from '@mui/material';

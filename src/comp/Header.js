@@ -1,6 +1,6 @@
-import React from 'react'
+
 import  {Link, BrowserRouter as Router}  from 'react-router-dom'
-import { FcSearch } from 'react-icons/fc';
+
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import { BsFillMoonStarsFill, BsFillSunFill } from 'react-icons/bs';
 import Search from './Search';

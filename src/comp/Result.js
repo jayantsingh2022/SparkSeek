@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import { useResultContext } from './ResultProvider'
-import ReactPlayer from 'react-player'
+
 import { ThreeDots } from  'react-loader-spinner'
-import { Route, Routes } from 'react-router-dom'
-import Search from './Search'
+
+
 import Error from './Error'
 
 const Result = () => {
   const {result, loading, getResults, searchTerm}=useResultContext();
   const location= useLocation(); 
-  const [load,setLoad]=useState(true);
+  
   const [it,setIt]= useState(false);
 
   useEffect(()=>
